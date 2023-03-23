@@ -12,13 +12,10 @@ document.querySelector(".add-basket__add-left").onclick = function() {
 
 
 let swiper = new Swiper(".mySwiper", {
- 
   spaceBetween: 44,
   mousewheel: true,
   keyboard: true,
- 
-
   loop: true,
-  
+  slidesPerView : 5,
 });
 
